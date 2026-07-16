@@ -1,0 +1,10 @@
+# Material pesado del cliente (fotos RAW, zips, brandbook PPTX >80MB)
+# se mantiene solo en local — GitHub rechaza archivos >100MB
+material/
+_old/
+
+# Config local
+.claude/
+.vercel/
+Thumbs.db
+desktop.ini
