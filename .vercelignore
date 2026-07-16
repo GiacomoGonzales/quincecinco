@@ -1,0 +1,6 @@
+# Solo se despliega la web — nunca el material fuente del cliente
+material
+_old
+.claude
+.git
+.gitignore

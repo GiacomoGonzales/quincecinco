@@ -8,3 +8,5 @@ _old/
 .vercel/
 Thumbs.db
 desktop.ini
+
+.vercel
