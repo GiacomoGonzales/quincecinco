@@ -8,6 +8,11 @@ navLinks.addEventListener('click', e => {
   if (e.target.tagName === 'A') navLinks.classList.remove('open');
 });
 
+// ---------- Header: al hacer scroll solo queda el nav principal ----------
+const alScroll = () => document.body.classList.toggle('scrolled', window.scrollY > 30);
+window.addEventListener('scroll', alScroll, { passive: true });
+alScroll();
+
 // ---------- Reveal on scroll ----------
 const io = new IntersectionObserver(entries => {
   entries.forEach(entry => {
